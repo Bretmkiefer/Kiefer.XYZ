@@ -495,6 +495,10 @@ h3 {
   border-color: var(--line-bright);
 }
 
+.work-card.wide { grid-column: span 2; }
+
+.work-card.wide p { max-width: 760px; }
+
 .work-card-tag {
   display: inline-block;
   align-self: flex-start;
@@ -563,6 +567,13 @@ h3 {
 .xp-logo img { width: 100%; height: 100%; object-fit: cover; }
 .xp-logo.dark { padding: 16px; background: #000; }
 .xp-logo.dark img { object-fit: contain; }
+
+.xp-logo.initials {
+  color: var(--cream);
+  font-size: 1.1rem;
+  font-weight: 700;
+  background: var(--cream-dim);
+}
 
 .xp-main h3 { margin-bottom: 4px; }
 
@@ -850,6 +861,7 @@ h3 {
 
   .proof-grid { grid-template-columns: 1fr; }
   .work-grid { grid-template-columns: 1fr; }
+  .work-card.wide { grid-column: auto; }
 
   .xp-row { grid-template-columns: 40px 72px minmax(0, 1fr); }
   .xp-row time { grid-column: 3; text-align: left; }

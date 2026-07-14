@@ -82,8 +82,8 @@ const TERMINAL_SCRIPT = [
   { text: "MIS @ RIT Saunders '27\n" },
   { text: "  location  ", cls: "t-key" },
   { text: "Brooklyn, NY / Chester, NJ\n" },
-  { text: "  focus     ", cls: "t-key" },
-  { text: "agentic systems · databases · VR\n" },
+  { text: "  stack     ", cls: "t-key" },
+  { text: "Claude · Codex · Figma · Antigravity\n" },
   { text: "  rank      ", cls: "t-key" },
   { text: "Eagle Scout\n" },
   { text: "\n" },
@@ -91,11 +91,11 @@ const TERMINAL_SCRIPT = [
   { text: "bret --now", type: true },
   { text: "\n" },
   { text: "  ● ", cls: "t-run" },
-  { text: "building agentic business workflows...\n", cls: "t-dim" },
+  { text: "shipped: AI QA platform for brand-safe image gen\n", cls: "t-dim" },
   { text: "  ● ", cls: "t-run" },
   { text: "this site: designed & shipped with AI agents\n", cls: "t-dim" },
   { text: "  ● ", cls: "t-run" },
-  { text: "next: kiefer.xyz domain + database-backed contact\n", cls: "t-dim" },
+  { text: "seeking: AI · product · automation · QA roles\n", cls: "t-dim" },
 ];
 
 function renderTerminalInstant() {
