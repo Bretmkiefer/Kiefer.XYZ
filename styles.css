@@ -499,6 +499,10 @@ h3 {
 
 .work-card.wide p { max-width: 760px; }
 
+/* featured card spans a full row, so an even-positioned last card
+   would otherwise sit alone at half width */
+.work-grid .work-card:nth-child(even):last-child { grid-column: span 2; }
+
 .work-card-tag {
   display: inline-block;
   align-self: flex-start;
