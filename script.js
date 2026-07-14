@@ -18,9 +18,11 @@ navLinks.forEach((link) => {
   });
 });
 
-/* ---------- active nav highlighting ---------- */
+/* ---------- active nav highlighting (same-page anchors only) ---------- */
 
-const sections = navLinks
+const anchorLinks = navLinks.filter((link) => link.getAttribute("href").startsWith("#"));
+
+const sections = anchorLinks
   .map((link) => document.querySelector(link.getAttribute("href")))
   .filter(Boolean);
 
@@ -28,7 +30,7 @@ const navObserver = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
       if (!entry.isIntersecting) return;
-      navLinks.forEach((link) => {
+      anchorLinks.forEach((link) => {
         link.classList.toggle("active", link.getAttribute("href") === `#${entry.target.id}`);
       });
     });
