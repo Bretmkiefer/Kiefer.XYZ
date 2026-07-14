@@ -94,6 +94,8 @@ const TERMINAL_SCRIPT = [
   { text: "building agentic business workflows...\n", cls: "t-dim" },
   { text: "  ● ", cls: "t-run" },
   { text: "this site: designed & shipped with AI agents\n", cls: "t-dim" },
+  { text: "  ● ", cls: "t-run" },
+  { text: "next: kiefer.xyz domain + database-backed contact\n", cls: "t-dim" },
 ];
 
 function renderTerminalInstant() {
