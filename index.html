@@ -18,7 +18,7 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Bret Kiefer home">
+      <a class="brand" href="index.html" aria-label="Bret Kiefer home">
         <span class="brand-mark">BK</span>
       </a>
       <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
@@ -26,12 +26,11 @@
         <span></span>
       </button>
       <nav class="site-nav" aria-label="Primary navigation">
-        <a href="#proof">Proof</a>
-        <a href="#work">Work</a>
+        <a href="index.html" class="active" aria-current="page">Home</a>
         <a href="projects.html">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+        <a href="experience.html">Experience</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
       </nav>
       <div class="header-status mono">
         <span class="status-dot" aria-hidden="true"></span>
@@ -41,7 +40,7 @@
 
     <main id="top">
       <!-- ============ HERO ============ -->
-      <section class="hero">
+      <section class="hero home-hero">
         <p class="hero-kicker mono reveal">~/bret-kiefer <span class="dim">(main)</span> · Chester NJ ↔ Brooklyn NY</p>
         <p class="hero-name serif reveal">Bret Kiefer</p>
         <h1 class="hero-title" aria-label="Agentic Builder">
@@ -55,7 +54,7 @@
             quality-assurance platform. Eagle Scout.
           </p>
           <div class="hero-actions reveal">
-            <a class="button solid" href="#proof">See the proof</a>
+            <a class="button solid" href="projects.html">See the work</a>
             <a class="button outline" href="https://www.linkedin.com/in/bretkiefer/" target="_blank" rel="noopener">LinkedIn</a>
           </div>
         </div>
@@ -70,7 +69,8 @@
             <h2 class="serif">The machine speaks for&nbsp;me.</h2>
             <p>
               No buzzwords — a status readout. This site itself was designed and shipped
-              by directing AI agents, and the receipts are one scroll away.
+              by directing AI agents, and the receipts live on the
+              <a class="text-link mono" href="projects.html">projects page →</a>
             </p>
           </div>
           <div class="terminal reveal" role="img" aria-label="Terminal showing Bret Kiefer's current status">
@@ -85,323 +85,39 @@
         </div>
       </section>
 
-      <!-- ============ PRINCIPLES 01-03 ============ -->
-      <section class="principles" aria-label="Focus areas">
-        <article class="reveal">
-          <span class="number mono">01</span>
-          <h2 class="serif">Learn</h2>
-          <p>
-            Curiosity first — studying Management Information Systems at RIT Saunders while
-            exploring how AI agents, VR, and business tools improve real workflows.
-          </p>
-          <a class="text-link mono" href="#about">about me →</a>
-        </article>
-        <article class="reveal">
-          <span class="number mono">02</span>
-          <h2 class="serif">Build</h2>
-          <p>
-            Through internships and project work, I focus on systems that make ecommerce,
-            operations, databases, and team collaboration smoother and easier to scale.
-          </p>
-          <a class="text-link mono" href="#work">the work →</a>
-        </article>
-        <article class="reveal">
-          <span class="number mono">03</span>
-          <h2 class="serif">Lead</h2>
-          <p>
-            Eagle Scout service taught me to organize people, solve physical problems, and
-            keep a team moving toward a shared outcome with follow-through.
-          </p>
-          <a class="text-link mono" href="#experience">the record →</a>
-        </article>
-      </section>
-
-      <!-- ============ PROOF ============ -->
-      <section class="proof-section" id="proof" aria-labelledby="proof-title">
-        <div class="section-head">
-          <span class="section-label mono">01 / proof of work</span>
-          <h2 id="proof-title"><span class="serif-italic">Exhibit 01:</span> the site you're reading.</h2>
-          <p class="section-sub">
-            Anyone can put "agentic" in a headline. Here's what it actually looks like —
-            this website was planned, designed, and shipped by directing AI agents, with me as the human in the loop.
-          </p>
-        </div>
-        <div class="proof-grid">
-          <article class="proof-card reveal">
-            <span class="proof-step mono">step 01</span>
-            <h3>Council review</h3>
-            <p>
-              Before a line of code, the concept was stress-tested by a five-agent LLM
-              council — contrarian, first-principles, expansionist, outsider, executor —
-              that debated whether this redesign should exist at all.
-            </p>
-          </article>
-          <article class="proof-card reveal">
-            <span class="proof-step mono">step 02</span>
-            <h3>Agent-built</h3>
-            <p>
-              The design system, markup, animations, and image pipeline were produced with
-              Claude Code. I set direction, made the calls, and reviewed every change —
-              the agent did the typing.
-            </p>
-          </article>
-          <article class="proof-card reveal">
-            <span class="proof-step mono">step 03</span>
-            <h3>Versioned &amp; shipped</h3>
-            <p>
-              Everything lives in the open on GitHub — baseline committed first, redesign
-              layered on top, full history intact. Next: a real domain and a
-              database-backed contact flow.
-            </p>
-            <a class="text-link mono" href="https://github.com/Bretmkiefer/Kiefer.XYZ" target="_blank" rel="noopener">view the repo →</a>
-          </article>
-        </div>
-      </section>
-
-      <!-- ============ WORK ============ -->
-      <section class="work-section" id="work" aria-labelledby="work-title">
-        <div class="section-head row">
-          <div>
-            <span class="section-label mono">02 / selected work</span>
-            <h2 id="work-title">Projects &amp; <span class="serif-italic">proof points</span></h2>
-          </div>
-          <a class="text-link mono" href="#contact">get in touch →</a>
-        </div>
-        <div class="work-grid">
-          <article class="work-card featured wide reveal">
-            <div class="work-card-tag mono">flagship · queen one</div>
-            <h3>AI quality-assurance platform for brand-safe generative media</h3>
-            <p>
-              Proof-of-concept platform that evaluates AI-generated images against established
-              brand guidelines — checking brand efficacy, alignment, and generation consistency
-              as a secondary quality signal inside Queen One's product stack. Built with agentic
-              workflows across Claude, Codex, Figma, and Antigravity.
-            </p>
-            <span class="work-card-foot mono">2026 — present · Brooklyn, NY</span>
-          </article>
-          <article class="work-card reveal">
-            <div class="work-card-tag mono">automation · primo fare</div>
-            <h3>AI Amazon listing workflow</h3>
-            <p>
-              Helped build an automated workflow that transforms client website data into
-              marketplace-ready Amazon listings — cutting manual work and speeding up
-              product onboarding at scale.
-            </p>
-            <span class="work-card-foot mono">2025</span>
-          </article>
-          <article class="work-card reveal">
-            <div class="work-card-tag mono">leadership</div>
-            <h3>Garden of Hope</h3>
-            <p>
-              Eagle Scout project at St. Marguerite's Retreat House — mobilized volunteer
-              teams for greenhouse framing, compost construction, and grounds restoration.
-              Featured by the Community of St. John Baptist.
-            </p>
-            <a class="text-link mono" href="https://www.csjb.org/newsletter/updates-from-the-sisters-march-2022" target="_blank" rel="noopener">read the feature →</a>
-            <span class="work-card-foot mono">2022</span>
-          </article>
-          <article class="work-card reveal">
-            <div class="work-card-tag mono">product testing</div>
-            <h3>Zenith: The Last City</h3>
-            <p>
-              Closed alpha/beta tester for Ramen VR's virtual-reality MMORPG — evaluated
-              gameplay systems, progression mechanics, and VR interactions, with structured
-              feedback that supported a more stable launch.
-            </p>
-            <span class="work-card-foot mono">2021 — 2022</span>
-          </article>
-        </div>
-      </section>
-
-      <!-- ============ EXPERIENCE ============ -->
-      <section class="experience-section" id="experience" aria-labelledby="experience-title">
-        <div class="section-head">
-          <span class="section-label mono">03 / experience</span>
-          <h2 id="experience-title">A practical mix of business, technology, and <span class="serif-italic">people work</span>.</h2>
-        </div>
-        <div class="xp-list">
-          <article class="xp-row reveal">
-            <span class="xp-index mono">01</span>
-            <div class="xp-logo"><img src="assets/queen-one-logo-sm.png" alt="Queen One logo" loading="lazy"></div>
-            <div class="xp-main">
-              <h3>Queen One</h3>
-              <p class="xp-role mono">Agentic Intern</p>
-              <p>
-                Develop and evaluate AI-powered products and proof-of-concept systems between
-                product strategy and technical development — agentic workflow design, vibe
-                coding, rapid prototyping, and AI quality assurance using Claude, Codex,
-                Figma, and Antigravity. Built a POC platform validating AI-generated images
-                against brand guidelines.
-              </p>
-            </div>
-            <time class="mono">2026.05 — now</time>
-          </article>
-          <article class="xp-row reveal">
-            <span class="xp-index mono">02</span>
-            <div class="xp-logo"><img src="assets/primo-fare-logo-sm.png" alt="Primo Fare logo" loading="lazy"></div>
-            <div class="xp-main">
-              <h3>Primo Fare LTD</h3>
-              <p class="xp-role mono">AI Optimization / Software Configuration Intern</p>
-              <p>
-                Supported automation workflows for e-commerce and Amazon marketplace
-                efficiency — worked with mass product-listing data and helped automate
-                AI-generated product descriptions from client website data, making
-                onboarding faster and more scalable.
-              </p>
-            </div>
-            <time class="mono">2025.03 — 2025.08</time>
-          </article>
-          <article class="xp-row reveal">
-            <span class="xp-index mono">03</span>
-            <div class="xp-logo"><img src="assets/nitroflex-logo-sm.png" alt="Nitroflex Gym logo" loading="lazy"></div>
-            <div class="xp-main">
-              <h3>Nitroflex Gym</h3>
-              <p class="xp-role mono">Sales Representative</p>
-              <p>
-                Worked directly with prospective and current members to understand fitness
-                goals and recommend membership options — direct sales, customer support,
-                front office operations, and retention in a fast-paced environment.
-              </p>
-            </div>
-            <time class="mono">2022.09 — 2025.07</time>
-          </article>
-          <article class="xp-row reveal">
-            <span class="xp-index mono">04</span>
-            <div class="xp-logo dark"><img src="assets/aura-logo.png" alt="Aura logo" loading="lazy"></div>
-            <div class="xp-main">
-              <h3>Aura</h3>
-              <p class="xp-role mono">Game Alpha/Beta Tester</p>
-              <p>
-                Closed alpha/beta tester for Zenith: The Last City (Ramen VR) — evaluated
-                gameplay systems, UX, performance, progression mechanics, and VR interactions;
-                collaborated with the testing community to stress-test features and support
-                a stable launch.
-              </p>
-            </div>
-            <time class="mono">2021.05 — 2022.12</time>
-          </article>
-        </div>
-      </section>
-
-      <!-- ============ SKILLS MARQUEE ============ -->
-      <section class="marquee-band" aria-label="Skills">
-        <div class="marquee-track display" aria-hidden="true">
-          <span>Agentic Workflows&ensp;+&ensp;Vibe Coding&ensp;+&ensp;AI Quality Assurance&ensp;+&ensp;Rapid Prototyping&ensp;+&ensp;Virtual Reality&ensp;+&ensp;Team Leadership&ensp;+&ensp;</span>
-          <span>Agentic Workflows&ensp;+&ensp;Vibe Coding&ensp;+&ensp;AI Quality Assurance&ensp;+&ensp;Rapid Prototyping&ensp;+&ensp;Virtual Reality&ensp;+&ensp;Team Leadership&ensp;+&ensp;</span>
-        </div>
-      </section>
-
-      <!-- ============ ABOUT ============ -->
-      <section class="about-section" id="about" aria-labelledby="about-title">
-        <div class="about-grid">
-          <div class="about-copy">
-            <span class="section-label mono">04 / about</span>
-            <h2 id="about-title">Emerging technology, grounded in <span class="serif-italic">service</span>.</h2>
-            <p>
-              I'm a rising senior at RIT with experience in agentic AI workflows, product
-              development, automation, quality assurance, and emerging technologies. At Queen
-              One I built a proof-of-concept AI QA platform for brand-safe generative media;
-              at Primo Fare I helped automate Amazon product listings from raw website data.
-            </p>
-            <p>
-              My foundation is Eagle Scout leadership — perseverance, responsibility, and
-              leading by example. I'm seeking part-time remote or full-time opportunities in
-              AI, product development, automation, or quality assurance.
-            </p>
-            <div class="about-facts mono">
-              <div class="fact reveal"><span class="fact-key">rank</span><span class="fact-val">Eagle Scout</span></div>
-              <div class="fact reveal"><span class="fact-key">gpa</span><span class="fact-val">3.43 · Dean's List</span></div>
-              <div class="fact reveal"><span class="fact-key">grad</span><span class="fact-val">RIT Saunders '27</span></div>
-              <div class="fact reveal"><span class="fact-key">seeking</span><span class="fact-val">AI · product · automation · QA</span></div>
-            </div>
-          </div>
-          <figure class="about-media reveal">
-            <img src="assets/bret-kiefer-profile.jpg" alt="Bret Kiefer headshot" loading="lazy">
-            <figcaption class="mono">bret_kiefer.jpg — 2026</figcaption>
-          </figure>
-        </div>
-      </section>
-
-      <!-- ============ EDUCATION ============ -->
-      <section class="education-section" aria-labelledby="education-title">
-        <div class="section-head">
-          <span class="section-label mono">05 / education</span>
-          <h2 id="education-title">Academic <span class="serif-italic">path</span></h2>
-        </div>
-        <div class="edu-list">
-          <article class="edu-row reveal">
-            <div>
-              <h3>Rochester Institute of Technology — Saunders College of Business</h3>
-              <p>B.S. Management Information Systems · Dean's List</p>
-            </div>
-            <time class="mono">2024 — 2027</time>
-          </article>
-          <article class="edu-row reveal">
-            <div>
-              <h3>RIT Croatia — Dubrovnik</h3>
-              <p>Semester abroad, Management Information Systems</p>
-            </div>
-            <time class="mono">2026</time>
-          </article>
-          <article class="edu-row reveal">
-            <div>
-              <h3>West Morris Mendham High School</h3>
-              <p>College preparatory and advanced diploma program</p>
-            </div>
-            <time class="mono">2019 — 2024</time>
-          </article>
-        </div>
-      </section>
-
-      <!-- ============ CONTACT ============ -->
-      <section class="contact-section" id="contact" aria-labelledby="contact-title">
-        <div class="talk-marquee serif" aria-hidden="true">
-          <div class="marquee-track">
-            <span>Let's Talk&ensp;+++&ensp;Let's Talk&ensp;+++&ensp;Let's Talk&ensp;+++&ensp;Let's Talk&ensp;+++&ensp;</span>
-            <span>Let's Talk&ensp;+++&ensp;Let's Talk&ensp;+++&ensp;Let's Talk&ensp;+++&ensp;Let's Talk&ensp;+++&ensp;</span>
-          </div>
-        </div>
-        <div class="contact-inner">
-          <div class="contact-copy">
-            <span class="section-label mono">06 / contact</span>
-            <h2 id="contact-title">Let's build <span class="serif-italic">something</span>.</h2>
-            <p>
-              Open to conversations about agentic systems, internships, business technology,
-              VR, and meaningful projects.
-            </p>
-            <div class="contact-links mono">
-              <a href="mailto:bretmkiefer@gmail.com">bretmkiefer@gmail.com ↗</a>
-              <a href="https://www.linkedin.com/in/bretkiefer/" target="_blank" rel="noopener">linkedin.com/in/bretkiefer ↗</a>
-              <a href="https://github.com/Bretmkiefer" target="_blank" rel="noopener">github.com/Bretmkiefer ↗</a>
-            </div>
-          </div>
-          <form class="contact-form" action="mailto:bretmkiefer@gmail.com" method="post" enctype="text/plain">
-            <div class="form-bar mono">
-              <span class="t-dot green"></span>
-              <span>new_message.txt</span>
-            </div>
-            <label>
-              <span class="mono">name:</span>
-              <input type="text" name="name" autocomplete="name" placeholder="Jane Recruiter">
-            </label>
-            <label>
-              <span class="mono">email:</span>
-              <input type="email" name="email" autocomplete="email" placeholder="jane@company.com">
-            </label>
-            <label>
-              <span class="mono">message:</span>
-              <textarea name="message" rows="4" placeholder="Let's talk about..."></textarea>
-            </label>
-            <button type="submit" class="button solid">Send message</button>
-          </form>
-        </div>
-      </section>
+      <!-- ============ SITE MENU ============ -->
+      <nav class="home-menu" aria-label="Site sections">
+        <a class="home-menu-row reveal" href="projects.html">
+          <span class="home-menu-index mono">01</span>
+          <span class="home-menu-title">Projects</span>
+          <span class="home-menu-sub">AI QA platform · this site · automation</span>
+          <span class="home-menu-arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="home-menu-row reveal" href="experience.html">
+          <span class="home-menu-index mono">02</span>
+          <span class="home-menu-title">Experience</span>
+          <span class="home-menu-sub">Queen One · Primo Fare · education</span>
+          <span class="home-menu-arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="home-menu-row reveal" href="about.html">
+          <span class="home-menu-index mono">03</span>
+          <span class="home-menu-title">About</span>
+          <span class="home-menu-sub">Eagle Scout · RIT '27 · Dubrovnik</span>
+          <span class="home-menu-arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="home-menu-row reveal" href="contact.html">
+          <span class="home-menu-index mono">04</span>
+          <span class="home-menu-title">Contact</span>
+          <span class="home-menu-sub">open to opportunities</span>
+          <span class="home-menu-arrow" aria-hidden="true">→</span>
+        </a>
+      </nav>
     </main>
 
     <footer class="site-footer mono">
       <span>© 2026 Bret Kiefer</span>
       <span class="footer-build">designed &amp; shipped with AI agents · <a href="https://github.com/Bretmkiefer/Kiefer.XYZ" target="_blank" rel="noopener">source</a></span>
-      <span class="footer-status"><span class="status-dot" aria-hidden="true"></span> v2.1.0</span>
+      <span class="footer-status"><span class="status-dot" aria-hidden="true"></span> v3.0.0</span>
     </footer>
 
     <script src="script.js"></script>

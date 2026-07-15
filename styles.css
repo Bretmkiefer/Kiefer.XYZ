@@ -787,6 +787,80 @@ h3 {
   font-family: var(--font-body);
 }
 
+/* ---------- home menu (giant section links) ---------- */
+
+.home-menu {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: clamp(40px, 6vw, 80px) var(--pad-x) var(--section-pad);
+}
+
+.home-menu-row {
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr) auto;
+  grid-template-areas: "index title arrow" ". sub arrow";
+  align-items: baseline;
+  column-gap: clamp(14px, 3vw, 30px);
+  padding: clamp(24px, 3.5vw, 40px) 0;
+  text-decoration: none;
+  border-top: 1px solid var(--line);
+  transition: background 0.25s, padding-left 0.3s ease;
+}
+
+.home-menu-row:last-child { border-bottom: 1px solid var(--line); }
+
+.home-menu-row:hover { padding-left: 14px; background: rgba(167, 139, 250, 0.03); }
+
+.home-menu-index { grid-area: index; color: var(--accent); font-size: 0.82rem; font-weight: 700; }
+
+.home-menu-title {
+  grid-area: title;
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 6.5vw, 5.2rem);
+  font-weight: 900;
+  line-height: 1.05;
+  text-transform: uppercase;
+  color: var(--text);
+  transition: color 0.25s;
+}
+
+.home-menu-row:hover .home-menu-title { color: var(--accent); }
+
+.home-menu-sub {
+  grid-area: sub;
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.home-menu-arrow {
+  grid-area: arrow;
+  align-self: center;
+  color: var(--accent);
+  font-size: clamp(1.4rem, 3vw, 2.4rem);
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: opacity 0.25s, transform 0.25s;
+}
+
+.home-menu-row:hover .home-menu-arrow { opacity: 1; transform: translateX(0); }
+
+/* ---------- shared page helpers ---------- */
+
+.page-list { padding-top: 0; }
+
+.page-about .about-grid { padding-top: 0; }
+
+.page-about { border-top: 0; }
+
+.page-contact { border-top: 0; padding-top: clamp(96px, 14vh, 130px); }
+
+.page-next-copy {
+  max-width: 460px;
+  margin: 14px 0 26px;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
 /* ---------- projects page ---------- */
 
 .page-hero {
@@ -1017,6 +1091,14 @@ h3 {
 
   .project-row { grid-template-columns: minmax(0, 1fr); gap: 14px; }
   .project-meta { flex-direction: row; align-items: baseline; gap: 14px; }
+
+  .home-menu-row {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas: "title arrow" "sub arrow";
+  }
+  .home-menu-index { display: none; }
+  .home-menu-title { font-size: clamp(1.6rem, 8.5vw, 2.6rem); }
+  .home-menu-arrow { opacity: 1; transform: none; }
 
   .edu-row { grid-template-columns: 1fr; gap: 8px; }
 
