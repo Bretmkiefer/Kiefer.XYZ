@@ -818,7 +818,10 @@ h3 {
 
 .page-list { padding-top: 0; }
 
-.page-about .about-grid { padding-top: 0; grid-template-columns: minmax(0, 1fr); }
+.page-about .about-grid { padding-top: 0; }
+
+/* the Pyrenees shot is 3:4 — let it breathe uncropped */
+.page-about .about-media img { aspect-ratio: auto; }
 
 .page-about { border-top: 0; }
 
