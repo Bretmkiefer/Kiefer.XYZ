@@ -5,10 +5,9 @@
     <path d="M100 0V500M200 0V500M300 0V500M400 0V500M500 0V500M600 0V500M700 0V500"/>
   </g>
   <text x="56" y="96" font-family="Arial, sans-serif" font-size="13" letter-spacing="4" fill="#9691ab">QUEEN ONE · AGENTIC AI · 2026</text>
-  <text x="52" y="170" font-family="Arial, sans-serif" font-size="52" font-weight="900" fill="#ece9f7">AI Quality</text>
-  <text x="52" y="228" font-family="Arial, sans-serif" font-size="52" font-weight="900" fill="#a78bfa">Assurance</text>
-  <text x="52" y="286" font-family="Arial, sans-serif" font-size="52" font-weight="900" fill="#ece9f7">Platform</text>
-  <text x="54" y="330" font-family="Consolas, monospace" font-size="15" fill="#9691ab">validate AI-generated media against brand guidelines</text>
+  <text x="52" y="190" font-family="Arial, sans-serif" font-size="76" font-weight="900" fill="#a78bfa">Sentinel</text>
+  <text x="52" y="248" font-family="Arial, sans-serif" font-size="30" font-weight="900" fill="#ece9f7">AI Quality-Assurance Platform</text>
+  <text x="54" y="296" font-family="Consolas, monospace" font-size="15" fill="#9691ab">validate AI-generated media against brand guidelines</text>
   <g font-family="Consolas, monospace" font-size="13">
     <rect x="52" y="360" rx="14" width="118" height="28" fill="#a78bfa" fill-opacity="0.15"/>
     <text x="66" y="379" fill="#c4b5fd">brand fit ✓</text>

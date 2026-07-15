@@ -93,7 +93,7 @@ const TERMINAL_SCRIPT = [
   { text: "bret --now", type: true },
   { text: "\n" },
   { text: "  ● ", cls: "t-run" },
-  { text: "shipped: AI QA platform for brand-safe image gen\n", cls: "t-dim" },
+  { text: "shipped: Sentinel — AI QA for brand-safe image gen\n", cls: "t-dim" },
   { text: "  ● ", cls: "t-run" },
   { text: "this site: designed & shipped with AI agents\n", cls: "t-dim" },
   { text: "  ● ", cls: "t-run" },
