@@ -820,8 +820,8 @@ h3 {
 
 .page-about .about-grid { padding-top: 0; }
 
-/* the Pyrenees shot is 3:4 — let it breathe uncropped */
-.page-about .about-media img { aspect-ratio: auto; }
+/* the Pyrenees shot is 3:4 — let it breathe uncropped, full color */
+.page-about .about-media img { aspect-ratio: auto; filter: none; }
 
 .page-about .about-media figcaption { color: var(--accent); }
 
