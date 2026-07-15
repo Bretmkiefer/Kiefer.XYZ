@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Quality-Assurance Platform — Bret Kiefer</title>
+    <meta
+      name="description"
+      content="Proof-of-concept AI quality-assurance platform validating AI-generated images against brand guidelines, built by Bret Kiefer at Queen One."
+    >
+    <meta property="og:title" content="AI Quality-Assurance Platform — Bret Kiefer">
+    <meta property="og:description" content="Validating AI-generated media against brand guidelines.">
+    <meta property="og:type" content="article">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;900&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Bret Kiefer home">
+        <span class="brand-mark">BK</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="experience.html">Experience</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-status mono">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span>open to opportunities</span>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="page-hero detail-hero">
+        <p class="hero-kicker mono reveal"><a class="back-link" href="projects.html">← back to projects</a></p>
+        <h1 class="page-title reveal">AI Quality-Assurance Platform</h1>
+        <p class="detail-byline reveal">A project by <a href="about.html">Bret Kiefer</a> — Agentic Intern @ Queen One</p>
+      </section>
+
+      <section class="detail" aria-label="Project details">
+        <figure class="detail-media reveal">
+          <img src="assets/thumb-qa-platform.svg" alt="AI Quality-Assurance Platform cover banner">
+        </figure>
+
+        <p class="detail-meta mono">Agentic AI · June 2026 — Present · built at Queen One, Brooklyn NY</p>
+
+        <div class="detail-actions">
+          <a class="button outline" href="https://www.linkedin.com/in/bretkiefer/" target="_blank" rel="noopener">Connect on LinkedIn →</a>
+          <a class="button outline" href="contact.html">Discuss this project →</a>
+        </div>
+
+        <div class="detail-body">
+          <p>
+            The AI Quality-Assurance Platform is a proof-of-concept system that evaluates
+            creative media generated for brands — checking brand efficacy, brand alignment,
+            and generation consistency. It serves as an additional validation step within
+            Queen One's product stack, evaluating AI-generated images against established
+            brand guidelines and providing a secondary quality signal.
+          </p>
+          <p>
+            The reason it exists: generative pipelines can produce beautiful images that are
+            quietly wrong for the brand — off-palette, off-tone, or inconsistent from one
+            generation to the next. A human can catch that, but not at pipeline speed. This
+            platform gives the stack a machine-speed reviewer that flags inconsistencies,
+            assesses output accuracy, and supports product refinement before a human ever
+            has to look.
+          </p>
+          <p>
+            I designed and prototyped it with agentic workflows across Claude, Codex, Figma,
+            and Antigravity — sitting between product strategy and technical development,
+            translating the company's broader vision into practical concepts, testing
+            processes, and product recommendations.
+          </p>
+          <p>
+            Through this project I strengthened my skills in product ideation, rapid
+            prototyping, AI quality assurance, agentic workflow design, vibe coding, and
+            cross-functional communication.
+          </p>
+
+          <!--
+            MEDIA SLOTS — drop these anywhere inside .detail-body:
+
+            Photo with caption:
+            <figure class="detail-media">
+              <img src="assets/your-photo.jpg" alt="Description">
+              <figcaption class="mono">Your Caption Here</figcaption>
+            </figure>
+
+            YouTube embed:
+            <div class="media-video">
+              <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Video title"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          -->
+        </div>
+      </section>
+
+      <section class="next-up" aria-label="Continue">
+        <div class="next-up-inner">
+          <span class="section-label mono">$ cd ../garden-of-hope</span>
+          <p class="page-next-copy">Next project: leadership in the physical world.</p>
+          <a class="button solid" href="project-garden-of-hope.html">Garden of Hope →</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer mono">
+      <span>© 2026 Bret Kiefer</span>
+      <span class="footer-build">designed &amp; shipped with AI agents · <a href="https://github.com/Bretmkiefer/Kiefer.XYZ" target="_blank" rel="noopener">source</a></span>
+      <span class="footer-status"><span class="status-dot" aria-hidden="true"></span> v3.2.0</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

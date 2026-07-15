@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Garden of Hope banner">
+  <rect width="800" height="500" fill="#16141f"/>
+  <g stroke="#a78bfa" stroke-opacity="0.07">
+    <path d="M0 100H800M0 200H800M0 300H800M0 400H800"/>
+    <path d="M100 0V500M200 0V500M300 0V500M400 0V500M500 0V500M600 0V500M700 0V500"/>
+  </g>
+  <text x="56" y="96" font-family="Arial, sans-serif" font-size="13" letter-spacing="4" fill="#9691ab">EAGLE SCOUT PROJECT · 2022</text>
+  <text x="52" y="180" font-family="Arial, sans-serif" font-size="60" font-weight="900" fill="#ece9f7">Garden</text>
+  <text x="52" y="246" font-family="Arial, sans-serif" font-size="60" font-weight="900" fill="#a78bfa">of Hope</text>
+  <text x="54" y="292" font-family="Consolas, monospace" font-size="15" fill="#9691ab">St. Marguerite's Retreat House · volunteer team leadership</text>
+  <g font-family="Consolas, monospace" font-size="13">
+    <rect x="52" y="322" rx="14" width="128" height="28" fill="#a78bfa" fill-opacity="0.15"/>
+    <text x="66" y="341" fill="#c4b5fd">greenhouse</text>
+    <rect x="192" y="322" rx="14" width="102" height="28" fill="#a78bfa" fill-opacity="0.15"/>
+    <text x="206" y="341" fill="#c4b5fd">compost</text>
+    <rect x="306" y="322" rx="14" width="142" height="28" fill="#a78bfa" fill-opacity="0.15"/>
+    <text x="320" y="341" fill="#c4b5fd">restoration</text>
+  </g>
+  <g transform="translate(538,110)">
+    <path d="M0 150 L75 70 L150 150 Z" fill="none" stroke="#a78bfa" stroke-width="3" stroke-opacity="0.8" stroke-linejoin="round"/>
+    <path d="M75 70 V150 M37 110 V150 M113 110 V150 M0 150 H150" stroke="#a78bfa" stroke-width="2" stroke-opacity="0.45"/>
+    <path d="M18 150 v-16 M34 150 v-22 M50 150 v-14" stroke="#3ef08c" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="18" cy="130" r="4" fill="#3ef08c"/>
+    <circle cx="34" cy="124" r="4" fill="#3ef08c"/>
+    <circle cx="50" cy="132" r="4" fill="#3ef08c"/>
+    <circle cx="128" cy="34" r="18" fill="#c4b5fd" fill-opacity="0.55"/>
+  </g>
+  <text x="56" y="452" font-family="Consolas, monospace" font-size="14" fill="#3ef08c">● featured by the Community of St. John Baptist</text>
+</svg>
