@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-85 -85 170 170">
+  <circle cx="0" cy="0" r="80" fill="#0b0a12" stroke="#a78bfa" stroke-width="4"/>
+  <text x="0" y="12" text-anchor="middle" font-family="'Unbounded', sans-serif" font-size="54" font-weight="900" fill="#ece9f7" letter-spacing="-2">BK</text>
+  <path d="M-45 30 Q0 45 45 30" fill="none" stroke="#a78bfa" stroke-width="4" stroke-linecap="round"/>
+</svg>
