@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Luke Martinez Website | Bret Kiefer</title>
+    <meta
+      name="description"
+      content="Custom portfolio website designed and built for Luke Martinez, an AG Systems Developer and Natural Resources student at Oregon State."
+    >
+    <meta property="og:title" content="Luke Martinez Website | Bret Kiefer">
+    <meta property="og:description" content="Custom portfolio website built for an AG Systems Developer.">
+    <meta property="og:type" content="article">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;900&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Bret Kiefer home">
+        <img class="brand-logo" src="assets/bk-logo.svg" alt="BK" width="40" height="40">
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="experience.html">Experience</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-status mono">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span>open to opportunities</span>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="page-hero detail-hero">
+        <p class="hero-kicker mono reveal"><a class="back-link" href="projects.html">← back to projects</a></p>
+        <h1 class="page-title reveal">Luke Martinez Website</h1>
+        <p class="detail-byline reveal">A project by <a href="about.html">Bret Kiefer</a></p>
+      </section>
+
+      <section class="detail" aria-label="Project details">
+        <figure class="detail-media reveal">
+          <img src="assets/thumb-luke-martinez.png" alt="Luke Martinez Website cover banner">
+        </figure>
+
+        <p class="detail-meta mono">Web Design · July 2026</p>
+
+        <div class="detail-actions">
+          <a class="button outline" href="https://luke-martinez-website.web.app/" target="_blank" rel="noopener">Visit the live site →</a>
+          <a class="button outline" href="contact.html">Discuss this project →</a>
+        </div>
+
+        <div class="detail-body">
+          <p>
+            A custom portfolio website designed and built for Luke Martinez, an AG Systems
+            Developer and Natural Resources student at Oregon State University. Luke is also
+            a Swiss-trained chef who cooked at a two-Michelin-star restaurant in Copenhagen
+            and a founder who built and sold a six-figure e-commerce business.
+          </p>
+          <p>
+            The site features a dark, nature-inspired design with an animated star field,
+            custom typography, and a layout tailored to Luke's unique background spanning
+            agriculture, culinary arts, and entrepreneurship.
+          </p>
+          <p>
+            The stack is pure HTML, CSS, and JavaScript with Firebase Hosting, keeping
+            things fast, lightweight, and easy to maintain. The design was adapted from my
+            own portfolio template and customized to match Luke's brand and story.
+          </p>
+        </div>
+      </section>
+
+      <section class="next-up" aria-label="Continue">
+        <div class="next-up-inner">
+          <span class="section-label mono">$ cd ../sentinel</span>
+          <p class="page-next-copy">Next project: AI quality assurance at Queen One.</p>
+          <a class="button solid" href="project-ai-qa.html">Sentinel →</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer mono">
+      <span>© 2026 Bret Kiefer</span>
+      <span class="footer-build">designed &amp; shipped with AI agents · <a href="https://github.com/Bretmkiefer/Kiefer.XYZ" target="_blank" rel="noopener">source</a></span>
+      <span class="footer-status"><span class="status-dot" aria-hidden="true"></span> v3.2.0</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
